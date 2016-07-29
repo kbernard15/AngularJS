@@ -17,10 +17,8 @@
              .then(onRepo, onError);
 
     };
-
-
+    
     var app = angular.module("githubViewer");
     app.controller("RepoController", ["$scope", "$routeParams", "github", RepoController]);
     
-
 }());
